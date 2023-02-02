@@ -4,6 +4,6 @@
 НАПИСАН КОД НА ЯЗЫКЕ PYTON, ВЕРСИЯ 3.8.6 В ПРОГРАММЕ PYCHARM.
 АРХИВ СОДЕРЖИТ ТРИ ФАЙЛА С КОДОМ.
 ФАЙЛЫ : 
-BOT_MAIN.py
-EXTENSIONS.py
+BOT_MAIN.py ,
+EXTENSIONS.py ,
 CONFIG.py
