@@ -1,7 +1,7 @@
 import json
 import requests
 from config import keys
-
+from config import TOKEN
 
 class ConvertionException(Exception):
     pass
