@@ -11,13 +11,13 @@ def help(message: telebot.types.Message):
     bot.reply_to(message, text)
 
 
+
 @bot.message_handler(commands=['values'])
 def values(message: telebot.types.Message):
     text = 'Доступные валюты:'
     for key in keys.keys():
         text = '\n'.join((text, key, ))
     bot.reply_to(message, text)
-
 
 @bot.message_handler(content_types=['text', 1])
 def convert(message: telebot.types.Message):
